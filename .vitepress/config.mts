@@ -29,7 +29,31 @@ const teekConfig = defineTeekConfig({
   },
 });
 
+// 搜索框配置
+const search_config = {
+  provider: 'local',
+  options: {
+    translations: {
+      button: {
+        buttonText: '搜索文档',
+        buttonAriaLabel: '搜索文档',
+      },
+      modal: {
+        noResultsText: '无法找到相关结果',
+        resetButtonTitle: '清除查询条件',
+        footer: {
+          selectText: '选择',
+          navigateText: '切换',
+        },
+      },
+    },
+  },
+};
+
+
+
 // https://vitepress.dev/reference/site-config
+// 主体配置
 export default defineConfig({
   title: "DrissionPage文档镜像站",
   description: "DrissionPage文档镜像",
@@ -37,7 +61,8 @@ export default defineConfig({
   base: '/teek2/',
   outDir: './docs',
   extends: teekConfig,
-  themeConfig: {
+  themeConfig: {        
+    search: search_config,
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "🏠️Home", link: "/" },
