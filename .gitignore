@@ -35,6 +35,7 @@ coverage
 /**/.vitepress/cache/*
 
 dp/
+pw/
 # docs/
 
 .vitepress/dist

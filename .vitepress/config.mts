@@ -66,7 +66,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "🏠️Home", link: "/" },
-      { text: "📘文档", link: "/dp/prepare/intro" },
+      { text: "🤖DrissionPage", link: "/dp/prepare/intro" },
+      { text: "🎭️PlayWright", link: "/pw/intro" },
     ],
 
     sidebar: [
