@@ -16,7 +16,7 @@ hero:
       text: 插件
       link: https://docs.qq.com/aio/p/sc4xdbyayxdf36f?p=CDNmOdRjNMOM5hGBSjJQ2X
   image:
-    src: /dp-logo.png
+    src: /hp.png
     alt: Teek
 
 
