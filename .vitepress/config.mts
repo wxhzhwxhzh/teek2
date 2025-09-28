@@ -68,6 +68,14 @@ export default defineConfig({
       { text: "🏠️Home", link: "/" },
       { text: "🤖DrissionPage", link: "/dp/prepare/intro" },
       { text: "🎭️PlayWright", link: "/pw/intro" },
+      {
+        text: "Ⓜ️MCP",
+        items: [
+          { text: "DrissionPageMCP", link: "https://github.com/wxhzhwxhzh/DrissionPageMCP" },
+          { text: "PlayWright mcp", link: "https://github.com/microsoft/playwright-mcp" },
+          { text: "chrome-devtools-mcp", link: "https://github.com/ChromeDevTools/chrome-devtools-mcp" },
+        ],
+      }
     ],
 
     sidebar: [
