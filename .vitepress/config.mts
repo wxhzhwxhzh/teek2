@@ -68,6 +68,7 @@ export default defineConfig({
       { text: "🏠️Home", link: "/" },
       { text: "🤖DrissionPage", link: "/dp/prepare/intro" },
       { text: "🎭️PlayWright", link: "/pw/intro" },
+      { text: "☕️JavaScript", link: "/js/intro1" },
       {
         text: "Ⓜ️MCP",
         items: [

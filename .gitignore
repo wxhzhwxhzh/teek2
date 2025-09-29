@@ -36,6 +36,7 @@ coverage
 
 dp/
 pw/
+js/
 # docs/
 
 .vitepress/dist
