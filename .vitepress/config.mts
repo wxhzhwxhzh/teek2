@@ -57,12 +57,16 @@ const search_config = {
 export default defineConfig({
   title: "DrissionPage文档镜像站",
   description: "DrissionPage文档镜像",
+  head:[
+    ["link", { rel: "icon", type: "image/png", href: "./teek.png" }],
+  ],
   // 改成你自己的仓库名
   base: '/teek2/',
   outDir: './docs',
   extends: teekConfig,
   themeConfig: {        
     search: search_config,
+    logo: './dp-logo.png',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "🏠️Home", link: "/" },
