@@ -74,6 +74,7 @@ export default defineConfig({
       { text: "🎭️PlayWright", link: "/pw/intro" },
       { text: "☕️JavaScript", link: "/js/intro1" },
       { text: "©️CDP", link: "/cdp/p1" },
+      { text: "©️Captcha", link: "/captcha/m0" },
       {
         text: "Ⓜ️MCP",
         items: [
