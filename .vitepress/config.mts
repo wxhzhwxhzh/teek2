@@ -73,6 +73,7 @@ export default defineConfig({
       { text: "🤖DrissionPage", link: "/dp/prepare/intro" },
       { text: "🎭️PlayWright", link: "/pw/intro" },
       { text: "☕️JavaScript", link: "/js/intro1" },
+      { text: "☕️requests", link: "/requests/intro1" },
       { text: "©️CDP", link: "/cdp/p1" },
       { text: "©️Captcha", link: "/captcha/m0" },
       {
